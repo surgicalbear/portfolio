@@ -23,7 +23,7 @@
                     <Card 
                     title="Statify" 
                     description="Statify is an application that displays a spotify users top tracks and artists over different timeframes, allowing users to get a better understanding of their music history" 
-                    gitLink="https://github.com/surgicalbear/spotifystats" 
+                    gitLink="https://github.com/surgicalbear/statify" 
                     techStack="Next.js React JavaScript TypeScript Shadcn"
                     />
                 </div>
