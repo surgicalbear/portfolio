@@ -21,6 +21,12 @@
                         <div class="typed-out">projects</div>
                     </div> 
                     <Card 
+                    title="SCS-RateMyProf" 
+                    description="A chrome extension that integrates professor reviews into the university course outline page." 
+                    gitLink="https://github.com/surgicalbear/SCS-RateMyProf" 
+                    techStack="JavaScript Node.js GraphQL"
+                    />
+                    <Card 
                     title="Statify" 
                     description="Statify is an application that displays a spotify users top tracks and artists over different timeframes, allowing users to get a better understanding of their music history" 
                     gitLink="https://github.com/surgicalbear/statify" 
