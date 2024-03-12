@@ -47,7 +47,7 @@
                             <span class ="lambda">λ</span>
                         </a>
                         <br>
-                        <a href="https://www.linkedin.com/in/eryk-s-13415a253/" target="_blank">linkedin
+                        <a href="https://www.linkedin.com/in/eryksadelski/" target="_blank">linkedin
                             <span class ="lambda">λ</span>
                         </a>
                         <br>
