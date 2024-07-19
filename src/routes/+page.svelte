@@ -117,6 +117,7 @@ h1{
     white-space: nowrap;
     overflow: hidden;
     animation: typing 3s;
+    margin-top: 4px;
 }
 
 @keyframes typing {
