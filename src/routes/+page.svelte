@@ -46,10 +46,6 @@
                     </div>
                     <h2 class="links-header-tag">Links</h2>
                     <p class ="links">
-                        <a href=" ">resume
-                            <span class ="lambda">λ</span>
-                        </a>
-                        <br>
                         <a href="https://github.com/surgicalbear" target="_blank">github
                             <span class ="lambda">λ</span>
                         </a>
@@ -135,9 +131,11 @@ h2{
 
 .links-header-tag{
     max-width: 105px;
+    margin-top: 10px;
 }
 .links{
     max-width: 105px;
+    margin-top: -10px;
 }
 .eryk{
     color: #8cade6;
@@ -166,18 +164,18 @@ a:hover{
   position: absolute;
   width: 2px;
   background-color: #fff;
-  top: 0;
-  bottom: 0px;
+  top: 0px;
+  bottom: 10px;
   left: 5px; 
 }
 .timeline-item:nth-child(2) {
-  margin-top:20px; 
+  margin-top:10px; 
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .timeline-item::after {
