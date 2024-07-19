@@ -32,7 +32,7 @@
                                 <div class="timeline-description-container">
                                     <div class="timeline-description">BlackBerry QNX</div>
                                 </div>
-                                <div class="timeline-title">SWE Intern</div>
+                                <div class="timeline-title">Software Engineering Intern</div>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -171,13 +171,13 @@ a:hover{
   left: 5px; 
 }
 .timeline-item:nth-child(2) {
-  margin-top:70px; 
+  margin-top:20px; 
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .timeline-item::after {
@@ -187,7 +187,7 @@ a:hover{
   height: 8px;
   background-color: #fff;
   border-radius: 50%;
-  top: 4px;
+  top: 7px;
   left: -18px; 
 }
 
@@ -198,6 +198,7 @@ a:hover{
 
 .timeline-description {
   margin-bottom: 2px;
+  font-size: 16px;
 }
 
 .timeline-description-container {
