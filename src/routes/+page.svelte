@@ -19,25 +19,32 @@
                         Carleton University '26
                         <br>
                     </p>
-                    <h2>about me</h2>
-                    <p><span class ="First-Word">Hi!</span> I'm a second-year computer science student at Carleton University 
+                    <h2>About me</h2>
+                    <p><span class ="First-Word">Hi!</span> I'm a third-year computer science student at Carleton University 
                         with an interest in software engineering,
                         AI, cryptography and other related fields in tech. Check out my projects
                         <a class="project-link" href="/projects">here</a>
                     </p>
-                    <h2>technologies</h2>
-                    <div style ="display:flex; flex-wrap:wrap;">
-                        <p class="test">python</p>
-                        <p class="test">java</p>
-                        <p class="test">c</p>
-                        <p class="test">javascript</p>
-                        <p class="test">react</p>
-                        <p class="test">nextjs</p>
-                        <p class="test">html</p>
-                        <p class="test">css</p>
-                        <p class="test">git</p>
+                    <h2>Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-description-container">
+                                    <div class="timeline-description">BlackBerry QNX</div>
+                                </div>
+                                <div class="timeline-title">SWE Intern</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-description-container">
+                                   <div class="timeline-description">Carleton University</div>
+                                </div>
+                                <div class="timeline-title">Teaching Assistant</div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="links-header-tag">links</h2>
+                    <h2 class="links-header-tag">Links</h2>
                     <p class ="links">
                         <a href=" ">resume
                             <span class ="lambda">λ</span>
@@ -147,22 +154,68 @@ a{
 a:hover{
     color: white;
 }
-.test{
-    border-left: solid #c9c9c9 .125em;
-    border-right: solid #c9c9c9 .125em;
-    border-top: solid #c9c9c9 .125em;
-    border: solid #c9c9c9 .125em;
-    padding-right: 3px;
-    padding-left: 3px;
-    margin-bottom: 5px;
-    margin-left: 4px;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-color: currentcolor;
-    text-decoration-thickness: auto;
-    margin:0.1rem;
-    padding:1;
-    color:#8cade6;
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px;
 }
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0px;
+  left: 5px; 
+}
+.timeline-item:nth-child(2) {
+  margin-top:70px; 
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 4px;
+  left: -18px; 
+}
+
+.timeline-content {
+  position: relative;
+  left: -5px; 
+}
+
+.timeline-description {
+  margin-bottom: 2px;
+}
+
+.timeline-description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px; 
+}
+
+.timeline-title {
+  font-size: 14px; 
+  color: #8cade6; 
+}
+
+.timeline-date {
+  font-size: 13px;
+  color: #bbb;
+  margin-left: auto; 
+}
+
 </style>
