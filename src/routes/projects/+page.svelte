@@ -21,16 +21,22 @@
                         <div class="typed-out">projects</div>
                     </div> 
                     <Card 
-                    title="SCS-RateMyProf" 
-                    description="A chrome extension that integrates professor reviews into the university course outline page." 
-                    gitLink="https://github.com/surgicalbear/SCS-RateMyProf" 
-                    techStack="JavaScript Node.js GraphQL"
+                    title="LeetTracker" 
+                    description="A web application that allows users to create custom sets of LeetCode problems and track their progression over time" 
+                    gitLink="https://github.com/surgicalbear/LeetTracker" 
+                    techStack="Go JavaScript React PostgreSQL GraphQL Redis Docker"
                     />
                     <Card 
-                    title="Statify" 
-                    description="Statify is an application that displays a spotify users top tracks and artists over different timeframes, allowing users to get a better understanding of their music history" 
-                    gitLink="https://github.com/surgicalbear/statify" 
-                    techStack="Next.js React JavaScript TypeScript Shadcn"
+                    title="MelodyMap" 
+                    description="A web application that showcases a Spotify user's top tracks and artists while providing personalized recommendations to help users explore and better understand their music history" 
+                    gitLink="https://github.com/surgicalbear/MelodyMap" 
+                    techStack="Python TypeScript React FastAPI"
+                    />
+                    <Card 
+                    title="SCS-RateMyProf" 
+                    description="A chrome extension that integrates professor reviews into Carletons course registration page" 
+                    gitLink="https://github.com/surgicalbear/Central-RateMyProf" 
+                    techStack="JavaScript Node.js GraphQL"
                     />
                 </div>
             </div>
