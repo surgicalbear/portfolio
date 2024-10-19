@@ -30,13 +30,13 @@
                     title="MelodyMap" 
                     description="A web application that showcases a Spotify user's top tracks and artists while providing personalized recommendations to help users explore and better understand their music history" 
                     gitLink="https://github.com/surgicalbear/MelodyMap" 
-                    techStack="Python TypeScript React FastAPI"
+                    techStack="Python TypeScript Next React FastAPI"
                     />
                     <Card 
-                    title="SCS-RateMyProf" 
+                    title="Central RateMyProf" 
                     description="A chrome extension that integrates professor reviews into Carletons course registration page" 
                     gitLink="https://github.com/surgicalbear/Central-RateMyProf" 
-                    techStack="JavaScript Node.js GraphQL"
+                    techStack="JavaScript GraphQL"
                     />
                 </div>
             </div>

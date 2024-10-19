@@ -22,7 +22,7 @@
                     <h2>About me</h2>
                     <p><span class ="First-Word">Hi!</span> I'm a third-year computer science student at Carleton University 
                         with an interest in software engineering,
-                        AI, cryptography and other related fields in tech. Check out my projects
+                        backend development, and other related fields in tech. Check out my projects
                         <a class="project-link" href="/projects">here</a>
                     </p>
                     <h2>Experience</h2>
@@ -30,9 +30,17 @@
                         <div class="timeline-item">
                             <div class="timeline-content">
                                 <div class="timeline-description-container">
+                                    <div class="timeline-description">TheScore</div>
+                                </div>
+                                <div class="timeline-title"> Incoming Software Engineer Intern</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-description-container">
                                     <div class="timeline-description">BlackBerry QNX</div>
                                 </div>
-                                <div class="timeline-title">Software Engineering Intern</div>
+                                <div class="timeline-title">Software Engineer Intern</div>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -169,16 +177,15 @@ a:hover{
   bottom: 10px;
   left: 5px; 
 }
-.timeline-item:nth-child(2) {
-  margin-top:10px; 
-}
 
 .timeline-item {
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-top: 0px;
 }
-
+.timeline-item:last-child {
+  margin-bottom: -13px;
+}
 .timeline-item::after {
   content: '';
   position: absolute;
@@ -212,10 +219,5 @@ a:hover{
   color: #8cade6; 
 }
 
-.timeline-date {
-  font-size: 13px;
-  color: #bbb;
-  margin-left: auto; 
-}
 
 </style>
