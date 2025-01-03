@@ -33,8 +33,8 @@
                     techStack="Python TypeScript Next React FastAPI"
                     />
                     <Card 
-                    title="Central RateMyProf" 
-                    description="A chrome extension that integrates professor reviews into Carletons course registration page" 
+                    title="Central RMP" 
+                    description="A chrome extension that integrates professor ratings into Carletons course registration page" 
                     gitLink="https://github.com/surgicalbear/Central-RateMyProf" 
                     techStack="JavaScript GraphQL"
                     />

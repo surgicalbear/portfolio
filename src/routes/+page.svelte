@@ -32,7 +32,7 @@
                                 <div class="timeline-description-container">
                                     <div class="timeline-description">TheScore</div>
                                 </div>
-                                <div class="timeline-title"> Incoming Software Engineer Intern</div>
+                                <div class="timeline-title">Software Engineer Intern</div>
                             </div>
                         </div>
                         <div class="timeline-item">
