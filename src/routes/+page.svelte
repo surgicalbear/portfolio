@@ -30,6 +30,14 @@
                         <div class="timeline-item">
                             <div class="timeline-content">
                                 <div class="timeline-description-container">
+                                    <div class="timeline-description">HubSpot</div>
+                                </div>
+                                <div class="timeline-title">Software Engineer Intern</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-description-container">
                                     <div class="timeline-description">TheScore</div>
                                 </div>
                                 <div class="timeline-title">Software Engineer Intern</div>
